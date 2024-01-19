@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  #game-container {
+    margin-top: 50px;
+  }
+  
+  #alphabet-container {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #word-container {
+    font-size: 18px;
+  }
+  
+  .alphabet {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .alphabet:hover {
+    background-color: #2980b9;
+  }
+  
